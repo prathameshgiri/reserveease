@@ -1,0 +1,120 @@
+[
+  {
+    "id": "SRV-101",
+    "name": "Executive Boardroom Suite",
+    "category": "Workspace & Meeting",
+    "description": "Ultra-modern 14-seat executive boardroom equipped with 4K UHD video conferencing, digital smart whiteboard, surround audio, and high-speed enterprise WiFi.",
+    "price": 2500,
+    "durationMinutes": 60,
+    "capacityPerSlot": 3,
+    "availableSlots": [
+      "09:00 - 10:00",
+      "10:30 - 11:30",
+      "12:00 - 13:00",
+      "14:00 - 15:00",
+      "15:30 - 16:30",
+      "17:00 - 18:00"
+    ],
+    "blockedDates": [],
+    "imageUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+    "status": "active",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-10-25T10:48:07.364Z"
+  },
+  {
+    "id": "SRV-102",
+    "name": "Luxury Rejuvenation Spa & Massage",
+    "category": "Health & Wellness",
+    "description": "Holistic full-body Swedish massage, essential aromatherapy oil therapy, hot stone relaxation, and steam bath by licensed aesthetic therapists.",
+    "price": 3200,
+    "durationMinutes": 90,
+    "capacityPerSlot": 4,
+    "availableSlots": [
+      "10:00 - 11:30",
+      "12:00 - 13:30",
+      "14:00 - 15:30",
+      "16:00 - 17:30",
+      "18:00 - 19:30"
+    ],
+    "blockedDates": [],
+    "imageUrl": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+    "status": "active",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "SRV-103",
+    "name": "Chef's Table Private Gastronomy",
+    "category": "Dining & Hospitality",
+    "description": "An exclusive 5-course curated tasting menu crafted live by our Master Executive Chef, featuring premium farm-to-table ingredients with private lounge terrace.",
+    "price": 4500,
+    "durationMinutes": 120,
+    "capacityPerSlot": 2,
+    "availableSlots": [
+      "12:30 - 14:30",
+      "19:00 - 21:00",
+      "21:30 - 23:30"
+    ],
+    "blockedDates": [],
+    "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+    "status": "active",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "SRV-104",
+    "name": "Grand Acoustic Banquet & Event Hall",
+    "category": "Workspace & Meeting",
+    "description": "Spacious hall with professional lighting grid, line-array audio, projector screens, and staging, suitable for corporate seminars, galas, and keynotes up to 100 people.",
+    "price": 15000,
+    "durationMinutes": 240,
+    "capacityPerSlot": 1,
+    "availableSlots": [
+      "09:00 - 13:00",
+      "14:00 - 18:00",
+      "18:30 - 22:30"
+    ],
+    "blockedDates": [],
+    "imageUrl": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80",
+    "status": "active",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "SRV-105",
+    "name": "Dedicated Ergonomic Co-Working Desk",
+    "category": "Workspace & Meeting",
+    "description": "Single full-day hot desk featuring Herman Miller seating, dual 27-inch 4K monitors, unlimited specialty roast espresso, and quiet booth access.",
+    "price": 600,
+    "durationMinutes": 480,
+    "capacityPerSlot": 8,
+    "availableSlots": [
+      "09:00 - 17:00",
+      "10:00 - 18:00"
+    ],
+    "blockedDates": [],
+    "imageUrl": "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?auto=format&fit=crop&w=800&q=80",
+    "status": "active",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "SRV-106",
+    "name": "Creative Cyclorama Photography Studio",
+    "category": "Creative Studio",
+    "description": "Full white cyclorama infinity wall, Profoto D2 flash heads, green screen backdrops, motorized overhead truss, private makeup dressing vanity, and tethering station.",
+    "price": 3800,
+    "durationMinutes": 180,
+    "capacityPerSlot": 2,
+    "availableSlots": [
+      "09:00 - 12:00",
+      "13:00 - 16:00",
+      "16:30 - 19:30"
+    ],
+    "blockedDates": [],
+    "imageUrl": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=800&q=80",
+    "status": "active",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  }
+]

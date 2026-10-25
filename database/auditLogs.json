@@ -1,0 +1,222 @@
+[
+  {
+    "id": "LOG-624519",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "UPDATE_RESERVATION_STATUS",
+    "details": "Admin changed reservation BK-W6HE2 status to completed",
+    "meta": {},
+    "timestamp": "2026-10-25T11:27:04.519Z"
+  },
+  {
+    "id": "LOG-606520",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "PROCESS_PAYMENT",
+    "details": "Payment PAY-189212 of ₹4484 recorded for booking BK-W6HE2",
+    "meta": {},
+    "timestamp": "2026-10-25T11:26:46.521Z"
+  },
+  {
+    "id": "LOG-909814",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "CREATE_RESERVATION",
+    "details": "Created reservation BK-W6HE2 for \"Creative Cyclorama Photography Studio\" on 2026-10-26 (09:00 - 12:00)",
+    "meta": {},
+    "timestamp": "2026-10-25T11:15:09.815Z"
+  },
+  {
+    "id": "LOG-622335",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "UPDATE_RESERVATION_STATUS",
+    "details": "Admin changed reservation BK-H97NP status to completed",
+    "meta": {},
+    "timestamp": "2026-10-25T10:53:42.335Z"
+  },
+  {
+    "id": "LOG-591407",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "PROCESS_PAYMENT",
+    "details": "Payment PAY-993004 of ₹17700 recorded for booking BK-H97NP",
+    "meta": {},
+    "timestamp": "2026-10-25T10:53:11.407Z"
+  },
+  {
+    "id": "LOG-582741",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "CREATE_RESERVATION",
+    "details": "Created reservation BK-H97NP for \"Grand Acoustic Banquet & Event Hall\" on 2026-10-26 (09:00 - 13:00)",
+    "meta": {},
+    "timestamp": "2026-10-25T10:53:02.741Z"
+  },
+  {
+    "id": "LOG-538570",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "UPDATE_RESERVATION_STATUS",
+    "details": "Admin changed reservation BK-462TE status to completed",
+    "meta": {},
+    "timestamp": "2026-10-25T10:52:18.571Z"
+  },
+  {
+    "id": "LOG-517320",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "ADMIN_LOGIN",
+    "details": "Admin logged into management portal: admin@reserveease.com",
+    "meta": {},
+    "timestamp": "2026-10-25T10:51:57.320Z"
+  },
+  {
+    "id": "LOG-341007",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "ADMIN_LOGIN",
+    "details": "Admin logged into management portal: admin@reserveease.com",
+    "meta": {},
+    "timestamp": "2026-10-25T10:49:01.007Z"
+  },
+  {
+    "id": "LOG-287376",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "UPDATE_SETTINGS",
+    "details": "System settings updated by administrator",
+    "meta": {},
+    "timestamp": "2026-10-25T10:48:07.376Z"
+  },
+  {
+    "id": "LOG-287366",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "UNBLOCK_DATE",
+    "details": "Unblocked date 2026-12-25 for service Executive Boardroom Suite",
+    "meta": {},
+    "timestamp": "2026-10-25T10:48:07.366Z"
+  },
+  {
+    "id": "LOG-287351",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "BLOCK_DATE",
+    "details": "Blocked date 2026-12-25 for service Executive Boardroom Suite",
+    "meta": {},
+    "timestamp": "2026-10-25T10:48:07.351Z"
+  },
+  {
+    "id": "LOG-287301",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "ADMIN_LOGIN",
+    "details": "Admin logged into management portal: admin@reserveease.com",
+    "meta": {},
+    "timestamp": "2026-10-25T10:48:07.301Z"
+  },
+  {
+    "id": "LOG-287161",
+    "actorId": "USR-CUST01",
+    "actorName": "Rohit Sharma",
+    "actorRole": "customer",
+    "action": "PROCESS_PAYMENT",
+    "details": "Payment PAY-523664 of ₹2950 recorded for booking BK-462TE",
+    "meta": {},
+    "timestamp": "2026-10-25T10:48:07.161Z"
+  },
+  {
+    "id": "LOG-287136",
+    "actorId": "USR-CUST01",
+    "actorName": "Rohit Sharma",
+    "actorRole": "customer",
+    "action": "CREATE_RESERVATION",
+    "details": "Created reservation BK-462TE for \"Executive Boardroom Suite\" on 2026-10-27 (09:00 - 10:00)",
+    "meta": {},
+    "timestamp": "2026-10-25T10:48:07.136Z"
+  },
+  {
+    "id": "LOG-287099",
+    "actorId": "USR-CUST01",
+    "actorName": "Rohit Sharma",
+    "actorRole": "customer",
+    "action": "USER_LOGIN",
+    "details": "CUSTOMER logged in: rohit@example.com",
+    "meta": {},
+    "timestamp": "2026-10-25T10:48:07.099Z"
+  },
+  {
+    "id": "LOG-099520",
+    "actorId": "USR-CUST01",
+    "actorName": "Rohit Sharma",
+    "actorRole": "customer",
+    "action": "PROCESS_PAYMENT",
+    "details": "Payment PAY-459674 of ₹5310 recorded for booking BK-K7A8X",
+    "meta": {},
+    "timestamp": "2026-10-25T10:44:59.520Z"
+  },
+  {
+    "id": "LOG-044928",
+    "actorId": "USR-CUST01",
+    "actorName": "Rohit Sharma",
+    "actorRole": "customer",
+    "action": "CREATE_RESERVATION",
+    "details": "Created reservation BK-K7A8X for \"Chef's Table Private Gastronomy\" on 2026-10-26 (19:00 - 21:00)",
+    "meta": {},
+    "timestamp": "2026-10-25T10:44:04.928Z"
+  },
+  {
+    "id": "LOG-991384",
+    "actorId": "USR-CUST01",
+    "actorName": "Rohit Sharma",
+    "actorRole": "customer",
+    "action": "USER_LOGIN",
+    "details": "CUSTOMER logged in: rohit@example.com",
+    "meta": {},
+    "timestamp": "2026-10-25T10:43:11.385Z"
+  },
+  {
+    "id": "LOG-001",
+    "actorId": "USR-ADM001",
+    "actorName": "System Administrator",
+    "actorRole": "admin",
+    "action": "SYSTEM_INITIALIZATION",
+    "details": "Initial database seeding and environment configuration completed.",
+    "meta": {},
+    "timestamp": "2026-10-25T10:07:18.964Z"
+  },
+  {
+    "id": "LOG-002",
+    "actorId": "USR-CUST01",
+    "actorName": "Rohit Sharma",
+    "actorRole": "customer",
+    "action": "CREATE_RESERVATION",
+    "details": "Created reservation BK-78412 for Executive Boardroom Suite",
+    "meta": {},
+    "timestamp": "2026-10-23T10:07:18.961Z"
+  },
+  {
+    "id": "LOG-003",
+    "actorId": "USR-CUST01",
+    "actorName": "Rohit Sharma",
+    "actorRole": "customer",
+    "action": "PROCESS_PAYMENT",
+    "details": "Payment PAY-3001 of ₹2950 recorded for booking BK-78412",
+    "meta": {},
+    "timestamp": "2026-10-23T10:07:18.961Z"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "customer-reservation-system",
+  "version": "1.0.0",
+  "description": "Customer Reservation & Booking Management System - MCA College Project",
+  "private": true,
+  "workspaces": [
+    "apps/customer",
+    "apps/admin",
+    "apps/api"
+  ],
+  "scripts": {
+    "dev": "concurrently -n \"API,CUSTOMER,ADMIN\" -c \"cyan.bold,green.bold,magenta.bold\" \"npm run dev:api\" \"npm run dev:customer\" \"npm run dev:admin\"",
+    "dev:customer": "npm run dev --prefix apps/customer",
+    "dev:admin": "npm run dev --prefix apps/admin",
+    "dev:api": "npm run dev --prefix apps/api",
+    "seed": "node apps/api/scripts/seed.js",
+    "install:all": "npm install && npm --prefix apps/api install && npm --prefix apps/customer install && npm --prefix apps/admin install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

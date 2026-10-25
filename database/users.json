@@ -1,0 +1,38 @@
+[
+  {
+    "id": "USR-ADM001",
+    "name": "System Administrator",
+    "email": "admin@reserveease.com",
+    "password": "$2a$10$/HK0B3bwNPlmzXhQctsqT.XhCnUNPA0xysA7vKxQitHsuscnviJKq",
+    "role": "admin",
+    "phone": "+91 98765 43210",
+    "address": "ReserveEase Headquarters, Mumbai",
+    "status": "active",
+    "createdAt": "2026-01-01T08:00:00.000Z",
+    "updatedAt": "2026-01-01T08:00:00.000Z"
+  },
+  {
+    "id": "USR-CUST01",
+    "name": "Rohit Sharma",
+    "email": "rohit@example.com",
+    "password": "$2a$10$/HK0B3bwNPlmzXhQctsqT.hmvepN6doTkhfEqlHv4hxCBUfsaCzIS",
+    "role": "customer",
+    "phone": "+91 98220 12345",
+    "address": "42 Marine Drive, Nariman Point, Mumbai",
+    "status": "active",
+    "createdAt": "2026-01-10T09:30:00.000Z",
+    "updatedAt": "2026-01-10T09:30:00.000Z"
+  },
+  {
+    "id": "USR-CUST02",
+    "name": "Priya Patel",
+    "email": "priya@example.com",
+    "password": "$2a$10$/HK0B3bwNPlmzXhQctsqT.hmvepN6doTkhfEqlHv4hxCBUfsaCzIS",
+    "role": "customer",
+    "phone": "+91 99301 67890",
+    "address": "15 Residency Road, Bangalore",
+    "status": "active",
+    "createdAt": "2026-01-12T11:15:00.000Z",
+    "updatedAt": "2026-01-12T11:15:00.000Z"
+  }
+]

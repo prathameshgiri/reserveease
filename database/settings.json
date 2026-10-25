@@ -1,0 +1,23 @@
+{
+  "appName": "ReserveEase",
+  "tagline": "Customer Reservation & Booking Management System",
+  "currency": "INR",
+  "currencySymbol": "₹",
+  "taxRatePercent": 18,
+  "contactEmail": "support@reserveease.com",
+  "contactPhone": "+91 22 4589 1200",
+  "address": "401 Tech Park, Bandra Kurla Complex, Mumbai, Maharashtra 400051",
+  "cancellationMinHours": 24,
+  "maxBookingsPerCustomerPerDay": 4,
+  "paymentMethods": [
+    "UPI",
+    "Credit/Debit Card",
+    "Net Banking"
+  ],
+  "allowInstantConfirmation": true,
+  "operatingHours": {
+    "open": "08:00",
+    "close": "22:00"
+  },
+  "updatedAt": "2026-10-25T10:48:07.375Z"
+}

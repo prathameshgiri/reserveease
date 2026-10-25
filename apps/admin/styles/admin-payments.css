@@ -1,0 +1,155 @@
+/* ========================================================
+   ADMIN PAYMENTS MANAGEMENT STYLES
+   ======================================================== */
+
+.admin-pay-header {
+  margin-bottom: 28px;
+}
+
+.admin-pay-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--navy-900);
+  letter-spacing: -0.5px;
+}
+
+.admin-pay-sub {
+  font-size: 14px;
+  color: var(--slate-500);
+  margin-top: 4px;
+}
+
+/* CONTROLS */
+.admin-pay-controls {
+  background: var(--white);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-xl);
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+  flex-wrap: wrap;
+}
+
+.admin-pay-search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 260px;
+}
+
+.admin-pay-search-input {
+  width: 100%;
+  padding: 10px 14px 10px 40px;
+  font-size: 14px;
+  border: 1px solid var(--slate-300);
+  border-radius: var(--radius-md);
+  background: var(--slate-50);
+  transition: var(--transition);
+}
+
+.admin-pay-search-input:focus {
+  outline: none;
+  background: var(--white);
+  border-color: var(--primary);
+}
+
+.admin-pay-pills {
+  display: flex;
+  gap: 8px;
+}
+
+.admin-pay-pill {
+  background: var(--slate-100);
+  border: 1px solid var(--slate-200);
+  color: var(--navy-800);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  text-transform: capitalize;
+}
+
+.admin-pay-pill.active {
+  background: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+
+/* PAYMENTS TABLE CARD */
+.admin-pay-table-card {
+  background: var(--white);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.admin-pay-table-responsive {
+  overflow-x: auto;
+}
+
+.admin-pay-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.admin-pay-table th {
+  padding: 14px 18px;
+  background: var(--slate-50);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--slate-500);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--slate-200);
+}
+
+.admin-pay-table td {
+  padding: 16px 18px;
+  font-size: 13px;
+  color: var(--navy-800);
+  border-bottom: 1px solid var(--slate-100);
+}
+
+.admin-pay-table tr:hover {
+  background: var(--slate-50);
+}
+
+.pay-status-pill {
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pay-status-pill.paid { background: var(--success-light); color: var(--success-dark); }
+.pay-status-pill.failed { background: var(--danger-light); color: var(--danger-dark); }
+.pay-status-pill.refunded { background: #f1f5f9; color: var(--slate-500); }
+
+.btn-refund {
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--danger-dark);
+  border: 1px solid #fca5a5;
+  padding: 5px 10px;
+  border-radius: var(--radius-md);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-refund:hover {
+  background: var(--danger);
+  color: var(--white);
+}

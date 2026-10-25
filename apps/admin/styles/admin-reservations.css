@@ -1,0 +1,201 @@
+/* ========================================================
+   ADMIN RESERVATIONS MANAGEMENT STYLES
+   ======================================================== */
+
+.admin-res-header {
+  margin-bottom: 28px;
+}
+
+.admin-res-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--navy-900);
+  letter-spacing: -0.5px;
+}
+
+.admin-res-sub {
+  font-size: 14px;
+  color: var(--slate-500);
+  margin-top: 4px;
+}
+
+/* FILTERS BAR */
+.admin-res-controls-bar {
+  background: var(--white);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-xl);
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+  flex-wrap: wrap;
+}
+
+.admin-res-search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 240px;
+}
+
+.admin-res-search-input {
+  width: 100%;
+  padding: 10px 14px 10px 40px;
+  font-size: 14px;
+  border: 1px solid var(--slate-300);
+  border-radius: var(--radius-md);
+  background: var(--slate-50);
+  transition: var(--transition);
+}
+
+.admin-res-search-input:focus {
+  outline: none;
+  background: var(--white);
+  border-color: var(--primary);
+}
+
+.date-filter-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.date-filter-input {
+  padding: 9px 12px;
+  font-size: 13px;
+  border: 1px solid var(--slate-300);
+  border-radius: var(--radius-md);
+}
+
+.res-pills-filter {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.res-pill-btn {
+  background: var(--slate-100);
+  border: 1px solid var(--slate-200);
+  color: var(--navy-800);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  text-transform: capitalize;
+}
+
+.res-pill-btn.active {
+  background: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+
+/* TABLE CARD */
+.admin-res-table-card {
+  background: var(--white);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.admin-res-table-responsive {
+  overflow-x: auto;
+}
+
+.admin-res-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.admin-res-table th {
+  padding: 14px 18px;
+  background: var(--slate-50);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--slate-500);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--slate-200);
+}
+
+.admin-res-table td {
+  padding: 16px 18px;
+  font-size: 13px;
+  color: var(--navy-800);
+  border-bottom: 1px solid var(--slate-100);
+}
+
+.admin-res-table tr:hover {
+  background: var(--slate-50);
+}
+
+.status-badge-cell {
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.status-badge-cell.confirmed { background: var(--success-light); color: var(--success-dark); }
+.status-badge-cell.pending { background: var(--warning-light); color: var(--warning-dark); }
+.status-badge-cell.completed { background: #f1f5f9; color: var(--navy-700); }
+.status-badge-cell.cancelled { background: var(--danger-light); color: var(--danger-dark); }
+
+.admin-actions-cell {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-table-action {
+  padding: 5px 10px;
+  border-radius: var(--radius-md);
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid var(--slate-200);
+  background: var(--white);
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-table-action:hover {
+  background: var(--slate-100);
+}
+
+.btn-table-action.confirm {
+  background: var(--success-light);
+  color: var(--success-dark);
+  border-color: #a7f3d0;
+}
+
+.btn-table-action.confirm:hover {
+  background: #d1fae5;
+}
+
+.btn-table-action.complete {
+  background: var(--primary-light);
+  color: var(--primary);
+  border-color: #bfdbfe;
+}
+
+.btn-table-action.cancel {
+  background: var(--danger-light);
+  color: var(--danger-dark);
+  border-color: #fca5a5;
+}
+
+.btn-table-action.cancel:hover {
+  background: #fee2e2;
+}

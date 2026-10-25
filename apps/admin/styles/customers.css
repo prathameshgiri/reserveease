@@ -1,0 +1,211 @@
+/* ========================================================
+   ADMIN CUSTOMERS PAGE STYLES
+   ======================================================== */
+
+.customers-page-header {
+  margin-bottom: 28px;
+}
+
+.customers-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--navy-900);
+  letter-spacing: -0.5px;
+}
+
+.customers-subtitle {
+  font-size: 14px;
+  color: var(--slate-500);
+  margin-top: 4px;
+}
+
+/* SEARCH & CONTROLS */
+.customers-controls-bar {
+  background: var(--white);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-xl);
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+  flex-wrap: wrap;
+}
+
+.cust-search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 260px;
+}
+
+.cust-search-input {
+  width: 100%;
+  padding: 10px 14px 10px 40px;
+  font-size: 14px;
+  border: 1px solid var(--slate-300);
+  border-radius: var(--radius-md);
+  background: var(--slate-50);
+  transition: var(--transition);
+}
+
+.cust-search-input:focus {
+  outline: none;
+  background: var(--white);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-glow);
+}
+
+.cust-filter-pills {
+  display: flex;
+  gap: 8px;
+}
+
+.cust-pill-btn {
+  background: var(--slate-100);
+  border: 1px solid var(--slate-200);
+  color: var(--navy-800);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  text-transform: capitalize;
+}
+
+.cust-pill-btn.active {
+  background: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+
+/* CUSTOMERS TABLE */
+.customers-table-card {
+  background: var(--white);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.cust-table-responsive {
+  overflow-x: auto;
+}
+
+.cust-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.cust-data-table th {
+  padding: 14px 18px;
+  background: var(--slate-50);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--slate-500);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--slate-200);
+}
+
+.cust-data-table td {
+  padding: 16px 18px;
+  font-size: 14px;
+  color: var(--navy-800);
+  border-bottom: 1px solid var(--slate-100);
+}
+
+.cust-data-table tr:hover {
+  background: var(--slate-50);
+}
+
+.cust-avatar-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cust-circle-avatar {
+  width: 36px;
+  height: 36px;
+  background: var(--primary-light);
+  color: var(--primary);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.cust-name-cell {
+  font-weight: 700;
+  color: var(--navy-900);
+}
+
+.cust-status-badge {
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cust-status-badge.active {
+  background: var(--success-light);
+  color: var(--success-dark);
+}
+
+.cust-status-badge.inactive {
+  background: var(--danger-light);
+  color: var(--danger-dark);
+}
+
+.cust-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-cust-action {
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid var(--slate-200);
+  background: var(--white);
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-cust-action:hover {
+  background: var(--slate-100);
+}
+
+.btn-cust-action.deactivate {
+  color: var(--danger-dark);
+  border-color: #fca5a5;
+  background: var(--danger-light);
+}
+
+.btn-cust-action.deactivate:hover {
+  background: #fee2e2;
+}
+
+.btn-cust-action.activate {
+  color: var(--success-dark);
+  border-color: #a7f3d0;
+  background: var(--success-light);
+}
+
+.btn-cust-action.activate:hover {
+  background: #d1fae5;
+}
